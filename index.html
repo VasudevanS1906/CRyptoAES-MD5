@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Military Communication Security Using AES Encryption and MD5 Hashing</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</head>
+<body>
+    <h1>Enhanced Military Communication Security Using AES Encryption and MD5 Hashing</h1>
+    <img src="ecn.jpg" alt="Cryptography Image" class="page-image" style="width: 600px; height: 300px;">
+    <hr>
+    <textarea id="input" placeholder="Enter your message here"></textarea>
+    <button onclick="encryptAndHash()">Encrypt and Hash</button>
+    <h2>Results:</h2>
+    <p>Encrypted Data: <span id="encrypted"></span></p>
+    <p>Hashed Data: <span id="hashed"></span></p>
+    <!-- Add this code after the existing textarea and button -->
+    <textarea id="ciphertext" placeholder="Enter the ciphertext here"></textarea>
+    <textarea id="inputHash" placeholder="Enter the hashed data here"></textarea>
+    <button onclick="setCiphertextAndDecryptAndVerify()">Decrypt and Verify</button>
+    <!-- Add this code after the ciphertext textarea -->
+    
+    <p>Decrypted Data: <span id="decrypted"></span></p>
+    <p>Verification: <span id="verification"></span></p>
+    <script src="script.js"></script>
+</body>
+</html>
